@@ -1,0 +1,152 @@
+
+@media screen and (max-width: 480px){
+    .header-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-nav ul{
+        list-style: none;
+        margin: -4px 5px 0 0;
+        padding: 20px 0;
+        border-left: 0;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-nav li{
+        padding-top: 20px;
+        width: 33.3%;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 780px){
+    .main-nav ul{
+        list-style: none;
+        margin: -4px 5px 0 0;
+        padding: 40px 0;
+        border-left: 0;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 14px;
+    }
+    .header-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 80px 50px 100px;
+        color: #fff;
+    }
+    .main-ic{
+        padding: 5% 0 15%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .box{
+        width: 50%;
+        padding: 0px 10px;
+        max-width: 270px;
+        margin-top: 50px;
+    }
+    .company{ 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .company a{
+        width: 50%;
+        padding-top: 20px;
+    }
+    .main-avtor{
+        display: flex;
+        margin-bottom: 80px;
+        flex-direction: column;align-items: center;
+    }
+    .avtor{
+        max-width: 370px;
+        width: 100%;
+        margin-right: 30px;
+        background-color: #faf9f9;
+        padding-top: 10px;
+        position: relative;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+        
+    }
+}
+@media screen and (max-width: 940px){
+    .micro{
+        font-size: 36px;
+        background: url(../images/Molek.png) 50% 80px no-repeat;
+        padding-bottom: 150px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        margin-bottom: 55px;
+    }
+    .in{
+        border: 20px solid #dddddd;
+        width: 335px;
+        position: absolute;
+        left: 25%;
+        background-color: #dddddd;
+    }
+    .field{
+        width: 225px;
+        height: 55px;
+        outline: none;
+    }
+    .btn{
+        background-color: #ffe13e;
+        width: 63px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        border: 1px solid #ffe13e;
+        outline: none;
+        cursor: pointer;
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+    .mid-back{
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        background: #202242;
+        z-index: 10;
+    }
+    .all-block{
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        z-index: 12;
+        position: relative;
+    }
+    .block{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 80px 100px 100px;
+        color: #fff;
+    }
+    .our-block{
+        display: flex;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    .our-text{
+        width: 100%;
+        text-align: center;
+    }
+    .company{
+        width: 100%;
+        padding-top: 15px;
+        text-align: center;
+    }
+}
